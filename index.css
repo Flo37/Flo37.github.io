@@ -9,7 +9,7 @@
 
 body {
 
-    background-color: #000000db;
+    background-color: #446a75e3;
 }
 
 /* ____________________________________________________________________ */
@@ -122,17 +122,34 @@ span:hover {
 
 .text_body {
     color: #ddd7d7;
-    margin: 0 155px;
+    margin: 20px 155px;
     max-width: 90%;
 }
 
 /* _____________________ */
 .grid {
+    display: flex;
     justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(3, 250px);
-    grid-template-rows: repeat(2, 250px);
-    cursor: pointer;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    align-items: center;
+    width: 80%;
+    background: lightblue;
+    /* padding: 1rem; */
+    align-items: center;
+    height:800px;
+}
+.image{
+    flex: 1 0 5%;
+    
+}
+img{
+    cursor: pointer; 
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px 3px darkgray;
+    margin: 10px;
 }
 
 .icon_yoga5 {
@@ -157,10 +174,14 @@ span:hover {
 
 /* ______________________________ */
 .video_add {
-    padding: 1rem;
+    /* padding: 1rem; */
     width: 50%;
     transform: translateX(-150%);
     transition: 2s;
+    border-radius: 40px;
+    box-shadow: 1px 4px rgb(255, 238, 0);
+    border:1px solid white;
+
 }
 
 
